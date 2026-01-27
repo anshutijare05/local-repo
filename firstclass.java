@@ -74,5 +74,27 @@ class eighthclass {
         System.out.println(sum); //-- if we want to mul then we can comment this line
         int mul = a * b;
         System.out.println(mul);
+        ninthclass.main(args);
+    }
+}
+class ninthclass {
+    public static void main(String[] args) {
+        //calculation
+        int a = 10;
+        int b = 5;
+        int mul = a * b;
+        int diff = a - b;
+        int div = mul / diff;
+        System.out.println(div);
+        tenthclass.main(args);
+    }
+}
+class tenthclass {
+    public static void main(String[] args) {
+        //claculation part 2
+        int a = 10;
+        int b = 5;
+        int ans = (a * b) / (a - b);
+        System.out.println(ans);     
     }
 }
