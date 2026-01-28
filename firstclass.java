@@ -1,3 +1,6 @@
+import java.util.*;
+
+
 public class firstclass {
     public static void main(String args[]) {
         System.out.println("Hello Folks");
@@ -96,5 +99,14 @@ class tenthclass {
         int b = 5;
         int ans = (a * b) / (a - b);
         System.out.println(ans);     
+        eleventhclass.main(args);
+    }
+}
+
+class eleventhclass {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+            String name = sc.next();
+            System.out.println(name);
     }
 }
