@@ -108,5 +108,7 @@ class eleventhclass {
         Scanner sc = new Scanner(System.in);
             String name = sc.next();
             System.out.println(name);
+            String fullname = sc.nextLine();
+            System.out.println(fullname);
     }
 }
